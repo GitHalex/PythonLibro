@@ -10,3 +10,4 @@ def inversa(cadena):
 
 
 print(inversa("hola"))
+print(inversa("12321"))
