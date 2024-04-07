@@ -3,12 +3,10 @@
 
 
 def inversa(cadena):
-    revertido = ""
-    i = len(cadena)
-    while i >= 0:
-        revertido += cadena[i]
-        i += 1
-    return revertido
+    invertida = ""
+    for letra in cadena:
+        invertida = letra + invertida
+    return invertida
 
 
 print(inversa("hola"))
