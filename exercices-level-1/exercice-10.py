@@ -3,3 +3,15 @@ histograma en la pantalla. Ejemplo: procedimiento([4, 9, 7]) debería imprimir l
 ****
 *********
 ******* '''
+
+
+def procedimiento(lista):
+    cadena = "*"
+    histograma = ""
+    for i in lista:
+        histograma += f"{cadena*i}\n"
+
+    return histograma
+
+
+print(procedimiento([4, 9, 7]))
