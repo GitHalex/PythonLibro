@@ -4,3 +4,13 @@ se te añaden al balance final de tu cuenta de ahorros. Escribir un programa que
  de dinero depositada en la cuenta de ahorros, introducida por el usuario. Después el programa debe calcular y
   mostrar por pantalla la cantidad de ahorros tras el primer, segundo y tercer años.
  Redondear cada cantidad a dos decimales.'''
+
+
+deposito = int(input("Ingrese la cantidad de dinero depositada: "))
+first_year = round(deposito*(1+4/100), 2)
+second_year = round(first_year*(1+4/100), 2)
+third_year = round(second_year*(1+4/100), 2)
+
+print(first_year)
+print(second_year)
+print(third_year)
