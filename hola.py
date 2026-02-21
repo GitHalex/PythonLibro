@@ -5,5 +5,4 @@
 # archivo = open('texto.txt', 'r')
 # print(archivo.read())
 
-def encriptar():
-    print("funcion para encriptar")
+print('Hola, mundo!')
